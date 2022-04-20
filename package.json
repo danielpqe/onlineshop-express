@@ -1,0 +1,39 @@
+{
+  "name": "onlineshop-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "start": "node index.js",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielpqe/onlineshop-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielpqe/onlineshop-express/issues"
+  },
+  "homepage": "https://github.com/danielpqe/onlineshop-express#readme",
+  "dependencies": {
+    "@hapi/boom": "^9.1.4",
+    "@types/express": "^4.17.13",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "faker": "^5.5.3",
+    "joi": "^17.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.25",
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.2",
+    "typescript": "^4.6.3"
+  }
+}
