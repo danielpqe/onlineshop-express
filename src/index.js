@@ -9,7 +9,7 @@
     boomErrorHandler,
   } = require('./middlewares/errorHandler');
 
-  const PORT = 3000;
+  const PORT = process.env.PORT || 3000;
   app.use(express.json());
 
   const whiteList = ['http://localhost:8080', 'http://myapp.com'];
